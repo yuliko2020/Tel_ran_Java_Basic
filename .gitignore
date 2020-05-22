@@ -1,0 +1,8 @@
+*.iml
+.vscode/*
+.idea/*
+.gradle
+.DS_Store
+/build
+/captures
+out
