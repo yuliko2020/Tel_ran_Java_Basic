@@ -10,6 +10,13 @@ public class ArrayExample {
     }
 
     private static void arrayTrayAndCry(int countDigits) {
+        int[] myArray = new int[countDigits];
+        for (int element : myArray) {
+            element = (int) (Math.random() * 100);
+            System.out.print(element + " ,");
+        }
+
     }
+
 
 }
