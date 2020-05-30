@@ -1,4 +1,4 @@
-package Lesson05;
+package Lesson06;
 
 /**
  * Tel ran first project
@@ -12,7 +12,7 @@ package Lesson05;
  */
 
 
-public class HomeWorkSwitch05 {
+public class HomeWorkSwitch06 {
     public static void main(String[] args) {
         //int userAge = 10;
         //shopCash(userAge);
