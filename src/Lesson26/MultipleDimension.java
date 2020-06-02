@@ -8,11 +8,11 @@ import java.util.Arrays;
  */
 public class MultipleDimension {
     public static void main(String[] args) {
-        // month();
+         month();
         // schoolTable();
         // myLovelyInt();
         //simpleExample();
-        justExample();
+        //justExample();
 
     }
 

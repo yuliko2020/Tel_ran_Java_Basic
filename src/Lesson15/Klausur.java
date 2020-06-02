@@ -20,6 +20,7 @@ public class Klausur {
         // protected
     }
 
+
     public static void weGoOnVacation(int money){
         // псевдометод, который нам поможет уехать в отпуск
         bookFlights();

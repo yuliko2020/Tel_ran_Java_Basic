@@ -16,9 +16,16 @@ public class ExercisesArray1 {
         int[] mm1 = {1, 2, 3, 4};
         int[] mm2 = {7, 1, 2, 3, 4, 9};
         int[] mm3 = {1, 2};
+
         myIntArrayPrint(makeMiddleEven(mm1));//[2,3]
         myIntArrayPrint(makeMiddleEven(mm2));//[2,3]
         myIntArrayPrint(makeMiddleEven(mm3));//[1,2]
+
+
+
+        int[] mm4 = {7, 6, 5, 4, 3, 2};
+        int[] result = makeMiddleEven(mm4);
+        myIntArrayPrint(result);
     }
 
     private static int[] makeMiddleEven(int[] array) {
@@ -38,10 +45,10 @@ public class ExercisesArray1 {
         return array;
     }
 
-    public static int[] myIntArrayPrint(int[] array) {
+    public static void myIntArrayPrint(int[] array) {
         for (int value : array) {
-            System.out.println(value + " ");
+            System.out.print(value + "  ");
         }
-        return array;
+        
     }
 }

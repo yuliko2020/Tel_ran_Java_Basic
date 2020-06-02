@@ -9,7 +9,7 @@ package Lesson06;
 public class VeryAngryExercise {
     public static void main(String[] args) {
         numberTwo();
-
+        numberOne();
 
     }
 

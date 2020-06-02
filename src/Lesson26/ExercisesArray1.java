@@ -9,14 +9,14 @@ import java.util.Arrays;
 
 public class ExercisesArray1 {
     public static void main(String[] args) {
-        int[] a1 = {1, 2, 3, 4, 5};
+       /* int[] a1 = {1, 2, 3, 4, 5};
         int[] a2 = {8, 6, 7, 5, 3, 0, 9};
         int[] a3 = {1, 2, 3};
         System.out.println(Arrays.toString(midThree(a1)));
         System.out.println(Arrays.toString(midThree(a2)));
         System.out.println(Arrays.toString(midThree(a3)));
 
-      /*  int[] a1 = {1, 2, 3};
+        int[] a1 = {1, 2, 3};
         int[] a2 = {1, 2, 3, 1};
         int[] a3 = {1, 2, 1};
         System.out.println(sameFirstLast(a1));
@@ -32,12 +32,13 @@ public class ExercisesArray1 {
         System.out.println(Arrays.toString(maxEnd3(m3))); // [3, 3, 3]
         System.out.println(Arrays.toString(maxEnd3(m4))); // [2, 11, 2]
 
-      /*  int[] a1 = {4, 5, 6};
+        int[] a1 = {4, 5, 6};
         int[] a2 = {1, 2};
         int[] a3 = {3};
         System.out.println(Arrays.toString(makeLast(a1)));// [0, 0, 0, 0, 0, 6]
         System.out.println(Arrays.toString(makeLast(a2)));//  [0, 0, 0, 2]
-        System.out.println(Arrays.toString(makeLast(a3)));// [0, 3]*/
+        System.out.println(Arrays.toString(makeLast(a3)));// [0, 3]
+
         int[] myTest1 = {1, 2, 3};
         int[] myTest2 = {1, 3};
         int[] yourTest1 = {7, 2, 3};
