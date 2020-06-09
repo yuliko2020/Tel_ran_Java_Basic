@@ -1,4 +1,4 @@
-package Sort;
+package Sort.HomeWork;
 
 import java.util.Arrays;
 

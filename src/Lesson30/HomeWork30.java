@@ -29,15 +29,18 @@ public class HomeWork30 {
 
     //initialize the String array with a snowflake.НЕ ПОЛУЧИЛОСЬ
     public static String[][] snowFlake() {
-        int line = 10;
+        int line = 9;
         String[][] output = new String[line][line];
         String space = " ";
         String star = "*";
 
         for (int i = 0; i < line; i++) {
             for (int j = 0; j < line; j++) {
-                if (i == (line / 2) + 1 || j == (line / 2) + 1)
+                if (i == (line / 2)  || j == (line / 2)|| i==j||(i+j)==line-1) {
                     output[i][j] = star;
+                }else {
+                    output[i][j] = space;
+                }
             }
 
         }
