@@ -15,7 +15,8 @@ public class Person {
     char selfTotem;
 
     public Person() {
-        //Пустое
+        //Пустой конструтор .... без параметров.....буз логики ...
+
     }
 
     public Person(double personWeight, double personHeight) {
@@ -33,7 +34,11 @@ public class Person {
         double personWeight = weight;
         double personHeight = height;
 
-         bmi = personWeight / (personHeight * personHeight);
+        bmi = personWeight / (personHeight * personHeight);
     }
 
+    void myPrint() {
+        System.out.println(firstName + " firstName " + " весит " + weight + " при росте " + height);
+
+    }
 }
