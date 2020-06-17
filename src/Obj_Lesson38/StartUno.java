@@ -4,7 +4,7 @@ package Obj_Lesson38;
  * TelRanJavaBasicModulOne
  * 16/06/2020  11:15
  */
-public class Main {
+public class StartUno {
     public static void main(String[] args) {
         System.out.println("---------------- №0");
         System.out.println(bmiIndex(175, 100, 30, "m"));

@@ -1,4 +1,4 @@
-package imperative_Lesson38;
+package Obj_Lesson38;
 
 /**
  * TelRanJavaBasicModulOne
@@ -11,7 +11,23 @@ public class Person {
     int age;
     String gender;
     double bmi;
+    boolean matriculation;
+    char selfTotem;
 
+    public Person() {
+        //Пустое
+    }
+
+    public Person(double personWeight, double personHeight) {
+        weight = personWeight;
+        height = personHeight;
+
+        findBmiClassIndex();
+    }
+
+    public Person(String personName) {
+        firstName = personName;
+    }
 
     public void findBmiClassIndex() {
         double personWeight = weight;
