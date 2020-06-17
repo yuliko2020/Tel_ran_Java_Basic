@@ -42,10 +42,12 @@ public class Car {
     }
 
     public Car(int kolesa) {
+
         tiles = kolesa;
     }
 
     public Car(int newDoors, int kolesa) {
+
         doors = newDoors;
     }
 
