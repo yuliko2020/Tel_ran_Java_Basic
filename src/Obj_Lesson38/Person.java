@@ -26,6 +26,14 @@ public class Person {
         findBmiClassIndex();
     }
 
+    public Person(String personName, double personWeight, double personHeight) {
+        weight = personWeight;
+        height = personHeight;
+        personName = personName;
+
+        findBmiClassIndex();
+    }
+
     public Person(String personName) {
         firstName = personName;
     }
@@ -38,7 +46,19 @@ public class Person {
     }
 
     void myPrint() {
-        System.out.println(firstName + " firstName " + " весит " + weight + " при росте " + height);
+        System.out.println(firstName + " firstName " + " весит " + weight + " при росте " + height +
+                "\n Индекс массы тела:" + bmi);
 
     }
+}
+
+class PersonTest {
+    public static void main(String[] args) {
+        Person myLittlePerson = new Person(" Sidorov", 190, 90);
+
+        myLittlePerson.myPrint();
+
+
+    }
+
 }
