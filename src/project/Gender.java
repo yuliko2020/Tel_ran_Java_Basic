@@ -1,23 +1,19 @@
-package Lesson45_ArrayList.project;
+package project;
+
 /**
  * TelRanJavaBasicModulOne
- * 24/06/2020  12:44
+ * 26/06/2020  11:11
  */
 public enum  Gender {
     MALE(1),
     FEMALE(2),
     DIVERSE(3);
 
-
     public int gender;
-
     Gender(int gender) {
         this.gender = gender;
-
     }
-
     public int getGender() {
         return gender;
     }
-
 }

@@ -1,31 +1,30 @@
-package Lesson45_ArrayList.project;
+package project;
+
 import java.util.Date;
 
 /**
  * TelRanJavaBasicModulOne
- * 24/06/2020  12:38
+ * 26/06/2020  11:12
  */
-
 public class Person {
     private String firstName;
-    private int height;
-    private double weight;
-    private Date birthDay;
+    private int height;  //cm
+    private double weight; //kg
+    private int age;
     public Gender gender;
-    //Version alpha 002 made 24 june 2020 year
-    //11.00.01--11(мажорная версия - не бета-верся )+2 --изменения внутри весрии +3 какие-то добавления
-    //это называется версинирование
-    //private final long VERSION_PERS = 2020_04_24_00_00_2l;
-
+    // vers alpha 002, made 24 june 2020
+    // 11.00.01
+    private final long VERSION_PERS = 2020_06_24_00_00_02L;
 
     public Person() {
     }
 
-    public Person(String firstName, int height, double weight,  Gender gender) {
+    public Person(String firstName, int height, double weight, Gender gender, int age) {
         this.firstName = firstName;
         this.height = height;
         this.weight = weight;
         this.gender = gender;
+        this.age = age;
     }
 
     public String getFirstName() {
@@ -40,12 +39,13 @@ public class Person {
         return weight;
     }
 
-    public Date getBirthDay() {
-        return birthDay;
-    }
 
     public Gender getGender() {
         return gender;
+    }
+
+    public long getVERSION_PERS() {
+        return VERSION_PERS;
     }
 
     public void setFirstName(String firstName) {
@@ -60,8 +60,12 @@ public class Person {
         this.weight = weight;
     }
 
-    public void setBirthDay(Date birthDay) {
-        this.birthDay = birthDay;
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
 
@@ -71,6 +75,4 @@ class PersonTest {
         Person p1 = new Person();
         p1.gender = Gender.FEMALE;
     }
-
-
 }

@@ -1,9 +1,9 @@
-package Lesson45_ArrayList.project;
+package project;
+
 /**
  * TelRanJavaBasicModulOne
- * 24/06/2020  12:14
+ * 26/06/2020  11:10
  */
-
 public class Alcohol {
     private String spiritName;
     private double alcoholPercent;
@@ -17,13 +17,13 @@ public class Alcohol {
         this.alcoholPercent = alcoholPercent;
     }
 
-    public Alcohol(String spiritName, double alcoholPercent, double milliLiter) {
-        this.spiritName = spiritName;
+    public Alcohol(double alcoholPercent, double milliLiter) {
         this.alcoholPercent = alcoholPercent;
         this.milliLiter = milliLiter;
     }
 
-    public Alcohol(double alcoholPercent, double milliLiter) {
+    public Alcohol(String spiritName, double alcoholPercent, double milliLiter) {
+        this.spiritName = spiritName;
         this.alcoholPercent = alcoholPercent;
         this.milliLiter = milliLiter;
     }

@@ -1,12 +1,11 @@
 package Lesson45_ArrayList.project;
-
-
 import java.util.ArrayList;
 
 /**
  * TelRanJavaBasicModulOne
  * 24/06/2020  12:24
  */
+
 public class Pool {
     public static ArrayList listOfAlcohol() {
         ArrayList<Alcohol> listOfAlcohol = new ArrayList<>();
